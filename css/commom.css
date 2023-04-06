@@ -28,6 +28,45 @@ a{
     line-height: 1.5;
 }
 
+.header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    gap: 30px;
+}
+
+.gnb{
+    display: flex;
+}
+
+.gnb li a{
+    /* background-color: orangered; */
+    display: block;
+    padding: 10px 26px;
+}
+
+.btn_login{
+    border: none;
+    padding: 10px 20px;
+    background-color: pink;
+    color: magenta;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn_login:hover{
+    background-color: transparent;
+    color: blue;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+
+
 .cards img{
     display: block;
     width: 100%;
@@ -40,7 +79,7 @@ a{
     gap: 30px;
 }
 
-.cards li{
+.cards li .photo{
     height: 300px;
     background-color: red;
 }
