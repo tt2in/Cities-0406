@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+    /* position: static; 포지션 별말 없으면 이거임*/
+    /* position: fixed; 그 자리에 고정돼서 움직이지 않음*/
+    /* position: relative; * t,b,l,r 에 따라 자기자신이 이동, 박스끼리 겹침주의/
+    /* position: absolute; */
+}
+
+.ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.body{
+    color: black;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.cards img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+}
+
+.cards li{
+    height: 300px;
+    background-color: red;
+}
